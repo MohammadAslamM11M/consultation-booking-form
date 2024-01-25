@@ -1,0 +1,84 @@
+.homeContainer {
+    max-width: 100vw;
+    margin: 0 auto;
+}
+
+.homeContainer h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.homeContainer p {
+    margin-bottom: 10px;
+}
+
+.homeContainer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.homeContainer li {
+    margin-bottom: 10px;
+}
+
+.bestDoctorsContainer {
+    margin: 30px 100px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.bestDoctorsContainer h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.combinedContainer {
+    display: flex;
+}
+
+.heroContainer {
+    position: relative;
+    padding: 20px 0px 0px 0px;
+}
+
+.formContainer {
+    position: absolute;
+    top: 8%;
+    right: -8%;
+    width: 35vw;
+    height: 72vh;
+    backdrop-filter: blur(10px);
+    background: rgba(47, 47, 47, 0.638);
+    padding: 0px 20px 20px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.docCardLayout {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    background: rgba(5, 5, 5, 0.218);
+}
+
+.docCard {
+    display: grid;
+    grid-template-columns: 70% auto;
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    background: rgba(94, 94, 94, 0.638);
+    border-radius: 20px;
+    line-height: 10px;
+    box-shadow: rgba(130, 130, 133, 0.25) 0px 100px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.docPic {
+    width: 100px;
+    height: 100px;
+    border: 4px solid rgb(49, 49, 49);
+    border-radius: 20px;
+    background-color: rgb(161, 161, 161);
+}

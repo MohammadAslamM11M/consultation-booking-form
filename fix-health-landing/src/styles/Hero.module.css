@@ -1,0 +1,34 @@
+.heroContainer {
+    background-image: url("../assets/indian-american-docpng_uQ6wLF8FE.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding: 50px 20px;
+    margin: 0px 100px;
+    width: 70vw;
+    height: 70vh;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.heroContainer h1 {
+    font-size: 4.5rem;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+
+.heroContainer p {
+    font-size: 2.2rem;
+    line-height: 15px;
+}
+
+.heroHeading{
+  color: rgb(56, 56, 56);
+}
+
+.heroSubHeading{
+  color: rgb(56, 56, 56);
+}

@@ -1,0 +1,43 @@
+.consultationForm {
+  color: white;
+}
+
+.formLayout {
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+}
+
+.formFields {
+    margin: 4px 2px;
+    padding: 2px 5px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(60, 60, 60);
+    color: white;
+}
+
+.chiefComplaintsFields {
+    margin: 4px 2px;
+    padding: 5px 5px;
+    width: 34vw;
+    height: 90px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(60, 60, 60);
+    color: white;
+}
+
+.label {
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.submitBtn{
+  margin-top: 40px;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
